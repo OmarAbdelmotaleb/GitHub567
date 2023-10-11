@@ -1,7 +1,7 @@
 # Triangle567
 
-[![OmarAbdelmotaleb](https://circleci.com/gh/OmarAbdelmotaleb/Triangle567.svg?style=svg)](https://app.circleci.com/pipelines/github/OmarAbdelmotaleb/Triangle567?branch=main&filter=all)
+[![OmarAbdelmotaleb](https://circleci.com/gh/OmarAbdelmotaleb/GitHubApi567.svg?style=svg)](https://app.circleci.com/pipelines/github/OmarAbdelmotaleb/GitHubApi567?branch=main&filter=all)
 
-The developer looks at the requirements and asks how should I design and implement this function, but the tester will ask questions such as what will I need to test for in this function? And how will I test this function?
+Write a description of what you thought about when you were designing the code.  What did *you* think was important to do to make it easy to test the program.  What are some of the challenges that you faced when testing this assignment.
 
-**Reflection**:  
+**Reflection**: When I was designing the code, I was focused heavily on the functionality. I used basic conditionals and variables to accomplish the task at hand. I think what was important was getting a basic return value to make it easy to the program. The requirements listed for us to print out statements, which isn't easily testable. However, using a return value like the status code enabled some unit testing. The main challenge I faced had to do with the rate limits. In hindsight, given the time and need for it I could setup additional function parameters or functions in parallel designed to test the basic API calls to ensure that works before allowing it to go all the way through and call for commits. Of course, this is a simpler assignment that wouldn't call for such rigor.
