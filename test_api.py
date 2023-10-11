@@ -2,7 +2,7 @@ import unittest
 from api import getRepos
 
 
-class TestTriangles(unittest.TestCase):
+class TestAPI(unittest.TestCase):
     def testStatus200(self): 
         # Test expected 200 status code
         self.assertEqual(getRepos("OmarAbdelmotaleb"), 200)
